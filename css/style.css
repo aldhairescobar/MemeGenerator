@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+header {
+  padding: 0.5em;
+  background-color: deeppink;
+  display: flex;
+}
+
+.troll-face-logo {
+  width: 100px;
+}
+
+.title {
+  color: white;
+  font-size: 35px;
+}
