@@ -1,14 +1,11 @@
 import React from "react";
+import logo from "../img/ment.png";
 
 function Header() {
   return (
     <header>
-      <img
-        className="troll-face-logo"
-        src="http://www.pngall.com/wp-content/uploads/2016/05/Trollface.png"
-        alt="Problem?"
-      />
-      <h1 className="title">Meme Generator</h1>
+      <img src={logo} alt="Problem?" />
+      <p>Meme Generator</p>
     </header>
   );
 }
